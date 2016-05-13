@@ -277,11 +277,8 @@ function update_status() {
 				//betoth start
 				var container_id = 'playing_track_rating'
 				$('#' + container_id).empty();
-				if (entry.id) {
-				  if ( !entry.rating ) {
-				    entry.rating = 0;
-				  }
-					add_rate_action('', container_id, entry);
+				if (entry.rating && entry.id) {
+					  add_rate_action('', container_id, entry);
 				} 
 				//betoth end
 			}

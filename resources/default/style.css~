@@ -40,11 +40,6 @@ img {
 	float: left;
 	margin-left: 0.7em;
 }
-#playing_track_rating {
-	float: right;
-	clear: right;
-	margin-right: 1em;
-}
 #time {
 	float: right;
 	clear: right;

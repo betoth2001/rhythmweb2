@@ -22,7 +22,7 @@
 		<span id="title"></span>
 		<span id="artist"></span>
 		<span id="album"></span>
-		<!--betoth start--><span id="playing_track_rating"></span><!--betoth end-->
+		<span id="playing_track_rating"></span>
 		<span id='time'></span>
 	</div>
 	<div id="tabs">
