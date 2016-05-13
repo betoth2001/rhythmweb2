@@ -3,3 +3,8 @@ gtk.py
 gi
 .coverage
 cover
+
+__pycache__/
+*.py[cod]
+*$py.class
+*~
