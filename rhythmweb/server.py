@@ -83,7 +83,7 @@ class Server(object):
             path = '/index.html'
         agent = environ.get('HTTP_USER_AGENT', '')
         #group = 'mobile' if match_mobile.match(agent) else 'default'
-        group =  'default'
+        group =  'default' #force use of standard web interface which has ratings
         response = Response(response)
         log.debug('Handling request {} {} for agent {} ({})'.format(method, path, agent, group))
         try:
